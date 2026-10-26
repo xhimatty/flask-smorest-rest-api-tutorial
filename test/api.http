@@ -1,0 +1,72 @@
+POST http://127.0.0.1:5000/products
+Content-Type: application/json
+
+{
+    "name": "Hisense TV 116UXS",
+    "description": "A massive 116-inch high-end model adding cyan backlight structure",
+    "price": 720.50,
+    "qty": 100
+}
+
+###
+
+POST http://127.0.0.1:5000/products
+Content-Type: application/json
+
+{
+    "name": "Hisense TV 163MX",
+    "description": "A massive 163-inch flagship feature a four-primary RGBY architecture",
+    "price": 920.25,
+    "qty": 60
+}
+
+###
+
+POST http://127.0.0.1:5000/products
+Content-Type: application/json
+
+{
+    "name": "Hisense TV UR8 Series",
+    "description": "RGB MiniLED lineup available in 55 to 100 inches sizes with high peak brightness (around 5,000 nits) and 165Hz VRR support.",
+    "price": 920.25,
+    "qty": 60
+}
+
+###
+
+GET http://127.0.0.1:5000/products
+
+###
+
+GET http://127.0.0.1:5000/products/2
+
+###
+
+PUT http://127.0.0.1:5000/products/3
+Content-Type: application/json
+
+{
+    "name": "Hisense TV UR8 Series",
+    "description": "RGB MiniLED lineup available in 55 to 100 inches sizes with high peak brightness (around 5,000 nits) and 165Hz VRR support.",
+    "price": 550,
+    "qty": 92
+}
+
+###
+DELETE http://127.0.0.1:5000/products/0
+
+###
+
+GET http://127.0.0.1:5000/products/?price_min=500
+
+###
+
+GET http://127.0.0.1:5000/products/?page=1
+
+###
+
+GET http://127.0.0.1:5000/products/?sort=price
+
+###
+
+GET http://127.0.0.1:5000/products/?sort=-price
