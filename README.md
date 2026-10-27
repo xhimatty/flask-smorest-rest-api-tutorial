@@ -102,7 +102,7 @@ flask-smorest-rest-api-tutorial/
 * `.gitignore`: Specifies files Git should ignore.
 * [`requirements.txt`](requirements.txt): Lists the Python dependencies required by the project.
 
-The SQLite database is created locally when the application is configured to create it. The database file should not be committed to the repository.
+The SQLite database is created locally when the application is configured to create it.
 
 ## Installation
 
