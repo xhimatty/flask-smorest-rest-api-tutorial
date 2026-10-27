@@ -158,7 +158,7 @@ The OpenAPI specification is available at:
 
 ## Testing the API
 
-This project uses the REST Client extension in Visual Studio Code.
+This project uses the [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension by Huachao Mao in Visual Studio Code.
 
 Instead of switching between your code editor and external tools like Postman or Thunder Client, this project includes a pre-configured .http file in the tests/ directory (e.g., api.http).
 
@@ -171,7 +171,7 @@ Instead of switching between your code editor and external tools like Postman or
 ### How to Use
 
 Open [`test/api.http`](test/api.http) 
-Ensure you have the REST Client extension enabled and send the requests to create, retrieve, update, and delete products, as well as test filtering, pagination, and sorting.
+Ensure you have the [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension by Huachao Mao enabled and send the requests to create, retrieve, update, and delete products, as well as test filtering, pagination, and sorting.
 
 ### Example
 
@@ -200,3 +200,5 @@ This is a beginner-friendly tutorial for those who are new to:
 * [Flask-SQLAlchemy](https://docs.sqlalchemy.org/en/21/orm/quickstart.html)
 * [Flask-Smorest](https://flask-smorest.readthedocs.io/en/latest/quickstart.html)
 * [Marshmallow](https://marshmallow.readthedocs.io/en/latest/)
+
+e no go far
