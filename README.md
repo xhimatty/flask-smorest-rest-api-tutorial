@@ -100,7 +100,7 @@ flask-smorest-rest-api-tutorial/
 * [`docs/notes.md`](docs/notes.md): Contains learning notes and code examples.
 * `.env`: Stores local environment variables.
 * `.gitignore`: Specifies files Git should ignore.
-* `requirements.txt`: Lists the Python dependencies required by the project.
+* [`requirements.txt`](requirements.txt): Lists the Python dependencies required by the project.
 
 The SQLite database is created locally when the application is configured to create it. The database file should not be committed to the repository.
 
@@ -160,7 +160,7 @@ The OpenAPI specification is available at:
 
 This project uses the REST Client extension in Visual Studio Code.
 
-Instead of switching between your code editor and external tools like Postman or Thunder Client, this project includes a pre-configured .http file in the tests/ directory (e.g., requests.http).
+Instead of switching between your code editor and external tools like Postman or Thunder Client, this project includes a pre-configured .http file in the tests/ directory (e.g., api.http).
 
 ### Why REST Client?
 
