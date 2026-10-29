@@ -160,7 +160,7 @@ The OpenAPI specification is available at:
 
 This project uses the [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) extension by Huachao Mao in Visual Studio Code.
 
-Instead of switching between your code editor and external tools like Postman or Thunder Client, this project includes a pre-configured .http file in the tests/ directory (e.g., api.http).
+Instead of switching between your code editor and external tools like Postman or Thunder Client, this project includes a pre-configured .http file in the test/ directory (e.g., api.http).
 
 ### Why REST Client?
 
@@ -201,4 +201,3 @@ This is a beginner-friendly tutorial for those who are new to:
 * [Flask-Smorest](https://flask-smorest.readthedocs.io/en/latest/quickstart.html)
 * [Marshmallow](https://marshmallow.readthedocs.io/en/latest/)
 
-e no go far
