@@ -187,7 +187,8 @@ Content-Type: application/json
 }
 ```
 
-Related project: [Flask REST API](https://github.com/xhimatty/flask-rest-api), implemented with Flask-Smorest and Flask-JWT-Extended.
+## Related project: 
+[Flask REST API](https://github.com/xhimatty/flask-rest-api), implemented with Flask-Smorest and Flask-JWT-Extended.
 
 ## Learning Notes
 
