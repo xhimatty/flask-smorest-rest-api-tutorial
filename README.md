@@ -187,6 +187,8 @@ Content-Type: application/json
 }
 ```
 
+Related project: [Flask REST API](https://github.com/xhimatty/flask-rest-api), implemented with Flask-Smorest and Flask-JWT-Extended.
+
 ## Learning Notes
 
 The [`docs/notes.md`](docs/notes.md) file documents the concepts covered during development, including CRUD operations, Marshmallow schemas, request validation, filtering, pagination, and sorting.
